@@ -1,8 +1,12 @@
 {
+  "name": "personal-finance-expense-tracker",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "servor --reload"
+    "dev": "vite",
+    "start": "vite --host 0.0.0.0"
   },
-  "dependencies": {
-    "servor": "^4.0.2"
+  "devDependencies": {
+    "vite": "^7.0.0"
   }
 }
