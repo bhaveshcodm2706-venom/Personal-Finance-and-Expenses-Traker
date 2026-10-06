@@ -106,9 +106,7 @@
 
                     <label>Category</label>
 
-                    <select id="category"
-                    placeholder="Select Category"
-                    required>
+                    <select id="category"required>
 
                         <option value="Food">
                             Food
@@ -180,19 +178,16 @@
 
     <!-- Transaction History -->
 
-    <div class="table-card">
-
-        <div class="table-header">
-
-            <h2>Transaction History</h2>
-
-            <button
-                class="refresh-btn"
-                onclick="loadTransactions()">
-                Refresh
-            </button>
-
-        </div>
+<div class="table-card">
+    <div class="table-header">
+        <h2>Transaction History</h2> 
+        <button
+        type="button"
+        id="refreshButton"
+        class="refresh-btn">
+        Refresh
+    </button>
+</div>
 
 
         <div class="table-container">

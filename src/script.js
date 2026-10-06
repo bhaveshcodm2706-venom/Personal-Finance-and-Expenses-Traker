@@ -25,6 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+// ==========================================
+// REFRESH BUTTON
+// ==========================================
+
+document
+    .getElementById("refreshButton")
+    .addEventListener("click", async () => {
+
+        await loadTransactions();
+        await loadSummary();
+
+    });
+
 
 // ==========================================
 // ADD TRANSACTION
