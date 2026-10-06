@@ -83,8 +83,8 @@ def summary():
     balance = total_income - total_expenses
 
     return jsonify({
-        "totalIncome": total_income,
-        "totalExpenses": total_expenses,
+        "income": income,
+        "expenses":expenses,
         "balance": balance
     })
 

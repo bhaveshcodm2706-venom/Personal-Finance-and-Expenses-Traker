@@ -8,7 +8,7 @@
 // After deploying your Python backend,
 // replace this with your backend URL.
 
-const API_URL = "http://127.0.0.1:5000";
+const API_URL =  "https://personal-finance-expense-api.onrender.com";
 
 
 // ==========================================
